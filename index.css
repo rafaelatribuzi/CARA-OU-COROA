@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}    
+
+body{
+    display: flex;
+    justify-content: center;   /* Centraliza horizontalmente */
+    align-items: center;       /* Centraliza verticalmente */
+    padding: 0 4rem 0 4rem; 
+    background:#232323;
+    color: #ffff;
+    
+}
+
+.container {
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.align-center{
+    text-align: center;
+}
+
+.score{
+    text-align: center;
+    color: #ffff;
+    font-weight: 700;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center; /* centraliza os botões */
+    gap: 32px;           /* espaçamento entre eles */
+}
+
+
+
+/*FONTES*/
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+p, span {
+    font-size: 1rem;
+    color: #cccc;
+    
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.light{
+    font-weight: 300;
+
+}
+
+strong {
+    color: #fff;         /* branco */
+    font-weight: bold;   /* reforça o negrito, mesmo que já seja padrão */
+}
+
+/*BOTÕES*/
+
+.primary{
+    background-color: #1C7ED6;
+    padding: 0.50rem 3rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    
+}
+
+.secondary{
+    background-color: #DC3545;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+}
+
+.card{
+    background-color: #2E2E2E;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: #1C7ED6 solid 2px;
+}
+
+/*ESPAÇAMENTO ENTRE ELEMENTOS*/
+
+.mt-1{
+    margin-top: 0.5rem; /*8px*/
+}
+
+.mt-2{
+    margin-top: 1rem; /*16px*/
+}
+
+.mt-3{
+    margin-top: 1.5rem; /*24px*/
+}
+
+.mt-4{
+    margin-top: 2rem; /*32px*/
+}
+
+.mt-5{
+    margin-top: 4rem; /*64px*/
+}
+
+
+
+button{
+    all: unset;
+}
+
+
+input{
+    all: unset;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CORES FIGMA*/
+
+/*
+#232323
+#2E2E2E
+
+#FFF
+#CCC
+
+#1C7ED6
+#DC3545
+*/
